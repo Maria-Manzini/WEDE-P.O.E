@@ -4,118 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books</title>
-    <img src="c:\Users\manzi\OneDrive\Documents\WEDE P.O.E\PART 1\IMAGES\logo.png">
-    <h1 ><b><I><u>The Crazy Store</u></I></b></h1>
-
-    <p ><b>You never know what you can find.</b></p>
-
-    <p ><b>You never know what you can find!</b></p>
-
+    <link rel="stylesheet"  href="CSS/style.css">
 </head>
-<body style="background-color: dodgerblue;">
-    <header></header>
-    <main>
-        <section id="books">
-            <h2 style="text-align: center;"><U>Books</U></h2>
-            <table>
-                <tr>
-                <td><DIV CLASS="Product">
-                    <h2>activity book</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/activity%20book.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R25,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-                <td><DIV CLASS="Product">
-                    <h2>barbie playtime pack</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/BARBIE%20PLAYTIME%20PACK.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R75,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-                <td><DIV CLASS="Product">
-                    <h2>kids afr bible</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/KIDS%20AFR%20BIBLE.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R55,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-            <td><DIV CLASS="Product">
-                    <h2>ostrich book</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/OSTRICH%20BOOK.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R123,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-            </tr>
-            <tr>
-            <td><DIV CLASS="Product">
-                    <h2>dog book</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/dog%20board%20book.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R79,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-            <td><DIV CLASS="Product">
-                    <h2> CUSSLER NOVELS</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/CUSSLER%20NOVELS.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R75,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-            <td><DIV CLASS="Product">
-                    <h2>CROSSWORDS</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/CROSSWORDS%20PUZZLE.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R75,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1"> 
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-            <td><DIV CLASS="Product">
-                    <h2>sudocu book</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/books/SUDOKU%20BOOK.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R99,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td>
-            </tr>
-            </table>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" class="logo-img">
+            <h1 ><b><I><u>The Crazy Store</u></I></b></h1>
+        </div>
+            <p class="subtitle"><b>Find the most fun and unique stuff....pssst....You never know what you can find..</b></p>
+            <nav class="nav">
+                <div class="button-container">
+                <a href="index.html"><button>index</button></a>
+                <a href="about us.html"><button>about us</button></a>
+                <a href="contact us.html"><button>contact us</button></a>
+                <A HREF="products.html"><button> products</button></A>
+                <a HREF="online store.html"><button>online shopping</button></a> 
+                </div>
+            </nav>
+        </div>
+        <h1 class="logo">This is our book collection.</h1>
+    </header>
+    <main class="product-grid">
+        <div class="product-card">
+            <img src="images/activity book.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>activity book</h2>
+            <p>a book full of activities for kids to do</p>
+            <span class="price">R25,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
 
-        </section>
+        <div class="product-card">
+            <img src="images/BARBIE PLAYTIME PACK.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>barbie playtime pack</h2>
+            <p>a pack with a doll and some playtime accessories</p>
+            <span class="price">R75,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/KIDS AFR BIBLE.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>kids afr bible</h2>
+            <p>a bible with less words and more pictures for clear interpretation</p>
+            <span class="price">R55,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/OSTRICH BOOK.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>ostrich book</h2>
+            <p>a book that educates children on ostriches.</p>
+            <span class="price">R123,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/dog board book.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>dog book</h2>
+            <p>a book meant for entertainment puposes only</p>
+            <span class="price">R79,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/CUSSLER NOVELS.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>CUSSLER NOVELS</h2>
+            <p>choose any novel of your choice</p>
+            <span class="price">R75,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/CROSSWORDS PUZZLE.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>CROSSWORDS</h2>
+            <p>a book full of crossword puzzles</p>
+            <span class="price">R75,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/SUDOKU BOOK.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>Sudocu book</h2>
+            <p>a book full of different sudocu puzzles</p>
+            <span class="price">R99,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="moving-background"></div>
     </main>
     <footer>
         <p style="text-align: center;">&copy;2025 online shopping</p>
-        <ul>
-            <li>
-                <a href="">terms and conditions</a>
-            </li>
-            <li>
-                <a href="">privacy policy</a>
-            </li>
-        </ul>
+        
     </footer>
     
 </body>

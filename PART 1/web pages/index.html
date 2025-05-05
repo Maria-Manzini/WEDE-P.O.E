@@ -4,25 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index page</title>
-    <img src="c:\Users\manzi\OneDrive\Documents\WEDE P.O.E\PART 1\IMAGES\logo.png">
-    <h1 ><b><I><u>The Crazy Store</u></I></b></h1>
-    <p ><b>You never know what you can find.</b></p>
+    <link rel="stylesheet"  href="CSS/style.css">
    
 </head>
-<body style="background-color: dodgerblue;" >
-    <header>
-        <nav>
-           <a href="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/web%20pages/index.html"><button>index</button></a>
-            <a href="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/web%20pages/about%20us.html"><button>about us</button></a>
-            <a href="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/web%20pages/contact%20us.html"><button>contact us</button></a>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" class="logo-img">
+            <h1 ><b><I><u>The Crazy Store</u></I></b></h1>
+        </div>
+            <p class="subtitle"><b>Find the most fun and unique stuff....pssst....You never know what you can find.</b></p>
             
-        </nav>
+            <nav class="nav">
+                <div class="button-container">
+                <a href="index.html"><button>index</button></a>
+                <a href="about us.html"><button>about us</button></a>
+                <a href="contact us.html"><button>contact us</button></a>
+                <a href="products.html"><button> products</button></A>
+                <a href="online store.html"><button>online shopping</button></a> 
+                <div class="neon-light"></div> 
+                </div>
+            </nav>
+        </div>
+
     </header>
     <main>
-        <h1>Welcome to our website</h1>
-        <A HREF="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/web%20pages/products.html"><button> products</button></A>
-        <a HREF="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/web%20pages/online%20store.html"><button>online shopping</button></a>
+        <h1 class="main">Welcome to our website</h1>
+          <p class="main">
+            At The Crazy Store, we believe shopping should be fun and full of surprises!
+            Whether you're looking for quirky gifts, party essentials, toys,<br> or household items,
+            we've got something exciting waiting for you. Affordable, cheerful, and full of character —
+            that’s how we roll. Explore our range and enjoy the crazy deals!
+          </p>
     </main>
+
+    <main class="product-grid">
+        <h1 class="main">Here is a sneak peak of what we have in store!</h1>
+        <div class="product-card">
+            <img src="images/activity book.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>activity book</h2>
+            <p>a book full of activities for kids to do</p>
+            <span class="price">R25,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/GUMMY DUCKS.webp" alt="images" width="200" height="150">
+            <h2>GUMMYDUCKS</h2>
+            <p>a tasty party snack</p>
+            <span class="price">R55,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="product-card">
+            <img src="images/ALARM CLOCK.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+            <h2>alarm clock</h2>
+            <p>keep track of your time</p>
+            <span class="price">R60,99</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
+
+        <div class="moving-background"></div>
+    </main>
+      
     <footer>
         <p style="text-align: center;">
             &copy;2025 our website

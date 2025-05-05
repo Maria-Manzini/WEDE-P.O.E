@@ -4,119 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>crazy pet finds</title>
-    <img src="c:\Users\manzi\OneDrive\Documents\WEDE P.O.E\PART 1\IMAGES\logo.png">
-    <h1 ><b><I><u>The Crazy Store</u></I></b></h1>
-    <p ><b>You never know what you can find!</b></p>
+    <link rel="stylesheet"  href="CSS/style.css">
 </head>
 
-<body style="background-color: dodgerblue;">
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo" class="logo-img">
+            <h1 ><b><I><u>The Crazy Store</u></I></b></h1>
+        </div>
+            <p class="subtitle"><b>Find the most fun and unique stuff....pssst....You never know what you can find.</b></p>
+            <nav class="nav">
+                <div class="button-container">
+                <a href="index.html"><button>index</button></a>
+                <a href="about us.html"><button>about us</button></a>
+                <a href="contact us.html"><button>contact us</button></a>
+                <A HREF="products.html"><button> products</button></A>
+                <a HREF="online store.html"><button>online shopping</button></a>  
+                </div>
+            </nav>
+        </div>
+        <h1 class="logo">Our crazy pet finds collection.</h1>
+        <h2 ><U>Crazy pet finds</U></h2>
+    </header>
+    <main class="product-grid">
+        <div class="product-card">
+            <img src="images/spikey toyball.webp" alt="images" width="200" height="150">
+            <h2>spikey toyball</h2>
+            <p>a toy to keep your pet entertained</p>
+            <span class="price">R25,00</span>
+            <div class="quantity">
+                <label for="quantity"><b>quantity</b></label>
+                <input type="number" id="quantity" value="1" min="1">
+            </div>
+            <button>add to cart</button>  
+        </div>
 
-    <header></header>
+            <div class="product-card">
+                <img src="images/dog treats.webp" alt="images" width="200" height="150">
+                <h2>dog treats</h2>
+                <p>tasty treat to keep your dog happy</p>
+                <span class="price">R50,00</span>
+                <div class="quantity">
+                    <label for="quantity"><b>quantity</b></label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button>add to cart</button>  
+            </div>
 
+            <div class="product-card">
+                <img src="images/dog biscuits.webp" alt="images" width="200" height="150">
+                <h2> dog biscuits</h2>
+                <p>tasty and healthy biscuits for your dogs tummy</p>
+                <span class="price">R49,99</span>
+                <div class="quantity">
+                    <label for="quantity"><b>quantity</b></label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button>add to cart</button>  
+            </div>
 
-    <main>
-        <section id="crazy-book-finds">
-            <h2 style="text-align: center;"><U>Crazy pet finds</U></h2>
-            <table>
-                <tr>
-                <td><DIV CLASS="Product">
-                    <h2>cat collar</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/cat%20collar.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
-                    <p><b>price:</b>R80,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </DIV></td><br>
-                <td><div class="Product">
-                    <h2>cat scratch pad</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/cat%20scratchpad.webp" alt="images" width="200" height="150">
-                    <p><b>price:</b>R179,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>   
-                </div></td><br>
+            <div class="product-card">
+                <img src="images/dog and cat house.webp" alt="images" width="200" height="150">
+                <h2> dog and cat house</h2>
+                <p>a movable house</p>
+                <span class="price">R120,00</span>
+                <div class="quantity">
+                    <label for="quantity"><b>quantity</b></label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button>add to cart</button>  
+            </div>
 
-                <td><div class="product">
-                    <h2>dog shampoo</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/dog%20shampoo.webp " alt="images" width="200" height="150">
-                    <p><b>price:</b>R75,oo</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </div></td><br>
-            
-                <td><div class="product">
-                    <h2> dog deodrant</h2>
-                    <img src=" file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/dog%20deodrant.webp" alt="images" width="200" height="150">
-                    <p><b>price:</b>R89,99</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </div></td><br>
-            </tr>
-            <tr>
+            <div class="product-card">
+                <img src="images/dog shampoo.webp" alt="images" width="200" height="150">
+                <h2>dog shampoo</h2>
+                <p>a scented shampoo that will leave your dog smelling fresh</p>
+                <span class="price">R75,00</span>
+                <div class="quantity">
+                    <label for="quantity"><b>quantity</b></label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button>add to cart</button>  
+            </div>
 
-                <td><div class="product">
-                    <h2> dog and cat house</h2>
-                    <img src=" file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/dog%20and%20cat%20house.webp" alt="images" width="200" height="150">
-                    <p><b>price:</b>R120,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </div></td><br>
+            <div class="product-card">
+                <img src="images/dog deodrant.webp" alt="images" width="200" height="150">
+                <h2>dog deodrant</h2>
+                <p>a deodrant to keep your dog smelling fresh</p>
+                <span class="price">R89,99</span>
+                <div class="quantity">
+                    <label for="quantity"><b>quantity</b></label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button>add to cart</button>  
+            </div>
 
-                <td><div class="product">
-                    <h2> dog biscuits</h2>
-                    <img src=" file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/dog%20biscuits.webp" alt="images" width="200" height="150">
-                    <p><b>price:</b>R49,99</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </div></td><br>
+            <div class="product-card">
+                <img src="images/cat scratchpad.webp" alt="images" width="200" height="150">
+                <h2>cat scratch pad</h2>
+                <p>a cute scratchpad that doesnt quickly get worn out</p>
+                <span class="price">R179,00</span>
+                <div class="quantity">
+                    <label for="quantity"><b>quantity</b></label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button>add to cart</button>  
+            </div>
 
-                <td><div class="product">
-                    <h2>dog treats</h2>
-                    <img src="file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/dog%20treats.webp " alt="images" width="200" height="150">
-                    <p><b>price:</b>R50</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </div></td><br>
+            <div class="product-card">
+                <img src="images/cat collar.webp" ALT="IMAGES" WIDTH="200" HEIGHT="150">
+                <h2>cat collar</h2>
+                <p> a customized cat collar</p>
+                <span class="price">R80,00</span>
+                <div class="quantity">
+                    <label for="quantity"><b>quantity</b></label>
+                    <input type="number" id="quantity" value="1" min="1">
+                </div>
+                <button>add to cart</button>  
+            </div>
 
-                <td><div class="product">
-                    <h2>spikey toyball</h2>
-                    <img src=" file:///C:/Users/manzi/OneDrive/Documents/WEDE%20P.O.E/PART%201/IMAGES/catalogue/crazy%20pet%20finds/spikey%20toyball.webp" alt="images" width="200" height="150">
-                    <p><b>price:</b>R25,00</p>
-                    <div class="quantity">
-                        <label for="quantity"><b>quantity</b></label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
-                    <button>add to cart</button>
-                </div></td><br>
-            </main>
+            <div class="moving-background"></div>
+    </main>
 
             <footer>
                 <p style="text-align: center;">&copy;2025 online shopping</p>
-                <ul>
-                <li><a href="">terms and conditions</a></li>
-                <li><a href="">privacy policy</a></li>
-            </ul>
-
-           </footer>
+            </footer>
+            
            
 </body>
 </html>
