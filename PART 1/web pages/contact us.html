@@ -1,77 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact us</title>
-    <link rel="stylesheet"  href="CSS/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="nav-container">
-            <div class="logo">
-                <img src="images/logo.png" alt="logo" class="logo-img">
-            <h1 ><b><I><u>The Crazy Store</u></I></b></h1>
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" class="logo-img">
+        <h1><b><a href="index.html"><b><i><u>The Crazy Store</u></i></b></a></h1>
+      </div>
+      <p class="subtitle"><b>Find the most fun and unique stuff....pssst....You never know what you can find.</b></p>
+      <nav class="nav">
+        <div class="button-container">
+          <a href="index.html">index</a>
+          <a href="about us.html">about us</a>
+          <a href="contact us.html">contact us</a>
+          <a href="products.html">products</a>
+          <a href="online store.html">online shopping</a>
         </div>
-            <p class="subtitle"><b>Find the most fun and unique stuff....pssst....You never know what you can find.</b></p>
-           
-            <nav class="nav">
-                <div class="button-container">
-                <a href="index.html"><button>index</button></a>
-                <a href="about us.html"><button>about us</button></a>
-                <a href="contact us.html"><button>contact us</button></a>
-                <A HREF="products.html"><button> products</button></A>
-                <a HREF="online store.html"><button>online shopping</button></a>  
-                </div>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="contact">
-            <h1 style="text-align: center;"><u>Contact form</u></h1>
-            <p style="text-align: center;">If you would like to place a query,leave a message,
-                give us a compliment (we love those) or report an issue 
-                you may fill in the form below:</p>
-                <div class="contact-container">
-                <form>
-                    <label for="name"><b>name</b></label>
-                    <input type="text" id="name" name="name"><br><br>
-                    <label for="email"><b>email</b></label>
-                    <input type="email" id="email" name="email"><br><br>
-                    <label for="message"><b>message</b></label>
-                    <textarea id="message" name="message"></textarea><br><br>
-                    <button>send</button>
-                </form>
-        </section>
-        <section class="contact info">
-            <div class="contact-information">
-            <h2><u>Our contact information</u></h2>
-
-                    <h3><u>Adress</u></h3>
-                    <p>15-17 Packer Avenue,
-                        Epping Industria,
-                        Cape Town,
-                        Western Cape,
-                        South Africa,
-                        7460
-                       (head office)     
-                    </p>
-                 
-                <h3><u>Telephone</u></h3>
-                <p>+27 (0)86 111 1281</p>
-                
-                    <h3><u>Email</u></h3>
-                    <a href="info@crazystore.co.za"><p>info@crazystore.co.za</p></a>
-                    
-        </section>
+      </nav>
     </div>
-</div>
-
-<div class="moving-background"></div>
-    </main>
-    <footer>
-        <p style="text-align: center;">&copy;2025 our website</p>
-    </footer>
+  </header>
+  <main>
+    <section class="contact">
+      <h1 style="text-align: center;"><u>Contact Form</u></h1>
+      <p style="text-align: center;">If you would like to place a query, leave a message, give us a compliment (we love those) or report an issue, you may fill in the form below:</p>
+      <div class="contact-container">
+        <form action="mailto:info@crazystore.co.za" method="post" enctype="text/plain" id="contact-form">
+          <label for="name" aria-label="Name"><b>Name</b></label>
+          <input type="text" id="name" name="name" required><br><br>
+          <label for="email" aria-label="Email"><b>Email</b></label>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="message" aria-label="Message"><b>Message</b></label>
+          <textarea id="message" name="message" required></textarea><br><br>
+          <button>Send</button>
+        </form>
+      </div>
+    </section>
+    <section class="contact-info">
+      <div class="contact-information">
+        <h2><u>Our Contact Information</u></h2>
+        <h3><u>Address</u></h3>
+        <p>15-17 Packer Avenue, Epping Industria, Cape Town, Western Cape, South Africa, 7460 (head office)</p>
+        <h3><u>Telephone</u></h3>
+        <p>+27 (0)86 111 1281</p>
+        <h3><u>Email</u></h3>
+        <a href="mailto:info@crazystore.co.za"><p>info@crazystore.co.za</p></a>
+      </div>
+    </section>
+  </main>
+  <script src="JAVA SCRIPT/script.js"></script>
 </body>
 </html>
